@@ -25,30 +25,27 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6F-Wp-eco">
                                                 <rect key="frame" x="0.0" y="0.0" width="113.66666666666667" height="102"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BIg-Ml-cSC"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vd-fk-zhm">
                                                 <rect key="frame" x="123.66666666666666" y="0.0" width="113.66666666666666" height="102"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <color key="tintColor" systemColor="tableBackgroundColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0XC-52-Ywy"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-Cy-NpW">
                                                 <rect key="frame" x="247.33333333333329" y="0.0" width="113.66666666666666" height="102"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <color key="tintColor" systemColor="tableCellPlainBackgroundColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDC-js-SJS"/>
                                                 </connections>
@@ -60,30 +57,27 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxt-DG-5qN">
                                                 <rect key="frame" x="0.0" y="0.0" width="113.66666666666667" height="102"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <color key="tintColor" systemColor="tableCellGroupedBackgroundColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ASG-LB-HGr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ew8-ew-20p">
                                                 <rect key="frame" x="123.66666666666666" y="0.0" width="113.66666666666666" height="102"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <color key="tintColor" systemColor="tableCellGroupedBackgroundColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ms4-pG-IrM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7M-Ef-TT2">
                                                 <rect key="frame" x="247.33333333333329" y="0.0" width="113.66666666666666" height="102"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <color key="tintColor" systemColor="tableCellGroupedBackgroundColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4zn-9J-GcE"/>
                                                 </connections>
@@ -95,30 +89,27 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9p-w5-gZQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="113.66666666666667" height="102"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <color key="tintColor" systemColor="tableCellGroupedBackgroundColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bhe-jO-CKu"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUB-TM-pwz">
                                                 <rect key="frame" x="123.66666666666666" y="0.0" width="113.66666666666666" height="102"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <color key="tintColor" systemColor="tableCellGroupedBackgroundColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dzo-HM-ikF"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMV-pW-dO9">
                                                 <rect key="frame" x="247.33333333333329" y="0.0" width="113.66666666666666" height="102"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <color key="tintColor" systemColor="tableCellGroupedBackgroundColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azj-wc-BX5"/>
                                                 </connections>
@@ -193,15 +184,6 @@
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tableBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tableCellGroupedBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tableCellPlainBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>

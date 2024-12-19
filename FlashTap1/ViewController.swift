@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         let buttons = [tapButton1, tapButton2, tapButton3, tapButton4, tapButton5, tapButton6, tapButton7, tapButton8, tapButton9]
         
         for button in buttons {
-            button?.backgroundColor = .blue // 기본 색상은 파란색
+            button?.tintColor = .blue // 기본 색상은 파란색
             buttonColors[button!] = .blue // 원래 색 저장
             button?.setTitle("나잡아봐라~", for: .normal)
         }
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         remainingTime = 8
         timerLabel.text = "\(remainingTime) 초"
         
-        self.view.backgroundColor = .white
+        self.view.tintColor = .white
         
         // 버튼에 대해 랜덤으로 노란색으로 바꾸는 타이머 설정
         changeButtonColorRandomly()
@@ -61,12 +61,12 @@ class ViewController: UIViewController {
     // MARK: - 버튼 클릭 액션
     @IBAction func buttonTapped(_ sender: UIButton) {
         // 노란색 버튼 클릭 시 점수 1점 증가
-        if sender.backgroundColor == .yellow {
+        if sender.tintColor == .yellow {
             score += 1
             scoreLabel.text = "\(score)"
             
             // 클릭된 버튼의 색을 원래 색으로 복원
-            sender.backgroundColor = .blue
+            sender.tintColor = .blue
         }
     }
     // MARK: - 게임 타이머 시작
@@ -110,7 +110,7 @@ class ViewController: UIViewController {
             
             DispatchQueue.main.asyncAfter(deadline: .now() + randomTime) {
                 if let btn = button {
-                    btn.backgroundColor = .yellow
+                    btn.tintColor = .yellow
                     self.activeButtons.append(btn) // 노란색으로 변경된 버튼을 추적
                     
                     // 계속 랜덤하게 색상 변경하도록 재귀 호출
