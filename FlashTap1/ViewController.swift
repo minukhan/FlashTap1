@@ -69,7 +69,7 @@ class ViewController: UIViewController {
             }
             
             // 버튼의 색상에 따라 다른 점수 로직을 적용합니다
-            if sender.tintColor == .yellow {
+            if sender.tintColor == .green {
                 // 노란색 버튼을 맞게 눌렀을 때: 100점 증가
                 self.score += 100
                 self.scoreLabel.text = "\(self.score)"
@@ -117,7 +117,7 @@ class ViewController: UIViewController {
         // 현재 노란색인 버튼들의 수를 확인합니다
         let currentYellowButtons = [tapButton1, tapButton2, tapButton3, tapButton4, tapButton5,
                                   tapButton6, tapButton7, tapButton8, tapButton9]
-            .filter { $0?.tintColor == .yellow }
+            .filter { $0?.tintColor == .green }
         
         // 노란색 버튼이 3개 이상이면 더 이상 생성하지 않습니다
         if currentYellowButtons.count >= 3 {
@@ -137,14 +137,14 @@ class ViewController: UIViewController {
         // 사용 가능한 버튼이 있고, 현재 노란색 버튼이 3개 미만일 때만 새로운 버튼을 생성합니다
         if let randomButton = availableButtons.randomElement()! {
             // 0.3~0.8초 사이의 랜덤한 시간으로 설정하여 자연스러운 등장 타이밍을 만듭니다
-            let randomTime = TimeInterval(arc4random_uniform(5) + 3) / 10.0  // 0.3~0.8초
+            let randomTime = TimeInterval(arc4random_uniform(5) + 1) / 10.0  // 0.1~0.6초
             
             DispatchQueue.main.asyncAfter(deadline: .now() + randomTime) { [weak self] in
                 guard let self = self, !self.gameOver else { return }
                 
                 // 게임이 진행 중이고 해당 버튼이 아직 파란색일 때만 노란색으로 변경합니다
                 if randomButton.tintColor == .blue {
-                    randomButton.tintColor = .yellow
+                    randomButton.tintColor = .green
                     
                     // 1초 동안 노란색을 유지한 후 파란색으로 돌아갑니다
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) { [weak self] in
