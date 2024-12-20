@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		37F734F32D1540C800DA9B43 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 37F734F22D1540C800DA9B43 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D578AE712D13A4840041A84C /* FlashTap1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashTap1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F734F32D1540C800DA9B43 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = FlashTap1;
 			packageProductDependencies = (
+				37F734F22D1540C800DA9B43 /* FirebaseFirestore */,
 			);
 			productName = FlashTap1;
 			productReference = D578AE712D13A4840041A84C /* FlashTap1.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = D578AE682D13A4840041A84C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				37F734F12D1540C800DA9B43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D578AE722D13A4840041A84C /* Products */;
 			projectDirPath = "";
@@ -148,6 +157,8 @@
 				DEVELOPMENT_TEAM = 4X4ZHZW84M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlashTap1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlashTap;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -157,7 +168,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.autoever.FlashTap1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -176,6 +187,8 @@
 				DEVELOPMENT_TEAM = 4X4ZHZW84M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlashTap1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlashTap;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -185,7 +198,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.autoever.FlashTap1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -335,6 +348,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37F734F12D1540C800DA9B43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37F734F22D1540C800DA9B43 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37F734F12D1540C800DA9B43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D578AE692D13A4840041A84C /* Project object */;
 }
